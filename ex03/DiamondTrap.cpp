@@ -51,7 +51,7 @@ DiamondTrap&    DiamondTrap::operator=(const DiamondTrap& instance)
 DiamondTrap::~DiamondTrap()
 { std::cout << "\033[1;31mDiamondTrap Destructor called\033[0m" << std::endl; }
 
-void    DiamondTrap::attack(std::string &target) 
+void    DiamondTrap::attack(std::string const &target) 
 {
     ScavTrap::attack(target);
 }

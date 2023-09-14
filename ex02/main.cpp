@@ -6,7 +6,7 @@
 /*   By: ddyankov <ddyankov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 16:09:28 by ddyankov          #+#    #+#             */
-/*   Updated: 2023/09/13 10:54:27 by ddyankov         ###   ########.fr       */
+/*   Updated: 2023/09/14 14:06:16 by ddyankov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,7 @@ int main()
     std::cout << "Current Energy of ScavTrap "  << a.getName() << " is " << a.getEnergyPoints() << " point(s)!" << std::endl; 
     std:: cout << "Current Health of ScavTrap " << a.getName() << " is " << a.getHitPoints() << " point(s)!" <<  std::endl;
 
+    ScavTrap e;
+    e.attack("bot");
     return 0;
 }
